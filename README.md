@@ -59,4 +59,6 @@ The letter "C", "N" and "S" in the font is copied from [Aileron](http://dotcolon
 
 # End note
 
+Thanks are given to Dr. Ken Lunde for his generous help in figuring out how to use AFDKO. [This is the article that I had used when making the font](https://ccjktype.fonts.adobe.com/2011/12/leveraging-afdko-part-1.html) [[2]](https://ccjktype.fonts.adobe.com/2012/01/leveraging-afdko-part-2.html). More articles are available at https://ccjktype.fonts.adobe.com.
+
 Have fun!
