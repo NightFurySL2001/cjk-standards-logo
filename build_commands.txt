@@ -1,0 +1,19 @@
+Step 2: Name-keyed to CID-keyed Conversion
+tx -t1 -V src.otf src.pfa
+mergefonts -cid cidfontinfo.txt src.raw map.txt src.pfa
+
+Step 3: Hinting the CIDFont Resource
+#editing src.raw
+```
+/Private 10 dict dup begin
+/BlueValues [0 -15 1550 775] def
+/LanguageGroup 1 def
+/StdHW [90] def
+/StdVW [90] def
+```
+
+#exclude cid00002 before hinting: GB logo too big
+psautohint -o src.cid -x /2 src.raw
+
+Step 6: Building the CID-keyed OpenType Font
+makeotf -f src.cid -mf .\FontMenuNameDB.txt -ff features.fea -r -ch cmap.txt

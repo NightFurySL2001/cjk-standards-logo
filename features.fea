@@ -1,0 +1,40 @@
+languagesystem DFLT dflt;
+
+table head {
+  FontRevision 1.000;
+} head;
+
+table name {
+  nameid 0 "Released under CC-0, Public Domain, or No Rights Reserved. All logos are trademark of their own respective standards.";
+  nameid 9 "NightFurySL2001";
+  nameid 12 "http://www.github.com/nightfurysl2001";
+  nameid 13 "CC0 / Public Domain / No Rights Reserved";
+  nameid 14 "http://creativecommons.org/publicdomain/zero/1.0/";
+  nameid 19 "\3387 \2618 \3004 \327F";
+} name;
+
+table OS/2 {
+  TypoAscender 750;
+  TypoDescender -250;
+  XHeight 500;
+  CapHeight 7350;
+  WeightClass 400;
+  WidthClass 5;
+  Panose 2 11 10 0 0 0 0 0 0 0;
+  FSType 0;
+  Vendor "NFSL";
+  winAscent 750;
+  winDescent 250;
+} OS/2;
+
+feature aalt{
+    feature ss01;
+} aalt;
+
+feature liga{
+    sub \7 \8 \9 by \5;
+} liga;
+
+feature ss01{
+    sub \3 by \6;
+}ss01;

@@ -1,0 +1,4 @@
+[CJKStandardLogos]
+	f=CJK Standard Logos
+	s=Regular
+	l=CJK Standard Logos

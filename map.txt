@@ -1,0 +1,11 @@
+mergeFonts
+0	.notdef
+1	space
+7	C
+8	N
+9	S
+3	jis
+6	jis.new
+4	koreanstandardsymbol
+2	gbfullwidth
+5	cns
